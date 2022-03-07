@@ -41,7 +41,9 @@
                                 <th scope="row">
                                     <a href="/admin/datauser" class="btn btn-info">Kembali</a>
                                 </th>
-                                <th></th>
+                                <th scope="row">
+                                    <a href="/admin/edit/<?php echo $listuser['id'] ?>" class="btn btn-warning">Edit</a>
+                                </th>
                                 <th scope="row">
                                     <a href="/admin/delete/<?php echo $listuser['id'] ?>" class="btn btn-danger">Hapus</a>
                                 </th>

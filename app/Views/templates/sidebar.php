@@ -22,13 +22,13 @@
 
         <!-- Nav Item -->
         <li class="nav-item">
-            <a class="nav-link" href="/user/profile">
+            <a class="nav-link" href="/admin/profile">
                 <i class="fas fa-fw fa-user"></i>
                 <span>My Profile</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/user/profile">
+            <a class="nav-link" href="/admin/edit/<?= user()->id; ?>">
                 <i class="fas fa-fw fa-user"></i>
                 <span>Edit Profile</span>
             </a>
