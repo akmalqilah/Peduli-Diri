@@ -61,21 +61,21 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/user/profile">
+            <a class="nav-link" href="/user/edit/<?= user()->id; ?>">
                 <i class="fas fa-fw fa-user"></i>
                 <span>Edit Profile</span>
             </a>
         </li>
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-            <a class="nav-link" href="/user/isidata">
+            <a class="nav-link" href="/user/inputcatatan">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Tambah Perjalanan</span></a>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-            <a class="nav-link" href="/user/catatan">
+            <a class="nav-link" href="/user/catatan/<?= user()->id; ?>">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Riwayat Perjalanan</span></a>
         </li>
